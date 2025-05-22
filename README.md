@@ -28,5 +28,4 @@ To get started with this repository:
 4. Navigate to and select the cloned repository folder
 
 ## Contributors
-
 - [Muhammad Agung Sundoro](https://agungsundoro.com)

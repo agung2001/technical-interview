@@ -1,0 +1,3 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V_My277URS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+A must-use plugin (also called a ‘mu-plugin’) is a plugin that will always be activated by default, without you needing to do it yourself. To activate a mu-plugin, you just have to upload it in the right directory, and WordPress will automatically know that this plugin must be used. Moreover, a mu-plugin cannot be deactivated: it will always be executed, unless it is uninstalled.

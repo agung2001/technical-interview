@@ -1,0 +1,1 @@
+In WooCommerce, entries refer to the individual items that make up an order. This includes products, taxes, shipping, and any other fees associated with the order. Entries are used to track the details of an order and are used to generate invoices and other reports. 

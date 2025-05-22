@@ -1,0 +1,5 @@
+The WordPress Customizer is a powerful built-in tool that allows users to customize and preview various aspects of their WordPress website in real-time. It provides a user-friendly interface where site administrators can make changes to site identity, colors, background, header, widgets, and more. The customizer offers a live preview of the modifications, allowing users to see how their changes will look on the front-end before applying them. This feature makes it easy for users to tailor their website's appearance and settings to suit their preferences without the need for coding or technical expertise. It enhances user experience and facilitates seamless website customization within the WordPress platform.
+
+## Resource
+- [Wordpress - Customizer](https://wordpress.org/documentation/article/customizer/)
+- [WordPress Developer - Customizer Object](https://developer.wordpress.org/themes/customize-api/customizer-objects/)
