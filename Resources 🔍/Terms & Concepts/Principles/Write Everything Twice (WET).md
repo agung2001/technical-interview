@@ -1,0 +1,5 @@
+WET stands for "Write Every Time" (or alternatively "We Enjoy Typing") and is an antipattern in software development that stands in contrast to the DRY principle. WET code is characterized by excessive duplication and repetition of code, often resulting in code that is longer, more complex, and harder to maintain than necessary.
+
+Unlike the DRY principle, which advocates for minimizing redundancy and repetition in code, the WET principle suggests that it is acceptable to write code that repeats itself, as long as it is clear and understandable to the developer. However, this approach can lead to a number of problems, such as increased development time, reduced code quality, and decreased maintainability.
+
+In practice, the WET principle is often seen as a sign of poor coding practices, and is generally discouraged in modern software development. Instead, developers are encouraged to follow best practices such as modularization, abstraction, and code reuse, which can help to minimize redundancy and improve the overall quality of their code.

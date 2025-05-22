@@ -1,4 +1,4 @@
-# Technical Interview Obsidian Repository
+# WP Technical Interview Obsidian Repository
 
 This repository serves as a comprehensive resource designed to assist WordPress developers in preparing for technical interviews. The repository encompasses:
 
@@ -28,4 +28,5 @@ To get started with this repository:
 4. Navigate to and select the cloned repository folder
 
 ## Contributors
+
 - [Muhammad Agung Sundoro](https://agungsundoro.com)

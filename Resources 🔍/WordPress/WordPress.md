@@ -89,7 +89,47 @@ Here are some of the common WordPress database tables and their purposes:
 11. `wp_woocommerce_*`: A set of tables specific to WooCommerce, the popular eCommerce plugin for WordPress, which stores information related to products, orders, customers, and more.
 12. `wp_*_log`: Various tables with prefixes like wp_debug_log, wp_error_log, wp_cron_log, which store different types of logs for debugging and troubleshooting purposes.
 
-## [Contribution](https://photos.artistudio.xyz/uploads/medium/78ceffbf858e2eb0b1c7a7ca97e32948.jpeg)
+## WordPress Architecture
+1. **WordPress Core Codebase**:    
+    - The WordPress core consists of the main PHP code that powers the website. This includes the core files responsible for functions such as user management, the admin dashboard, posts, pages, themes, plugins, media management, and the database connection.
+    - WordPress is built using PHP, MySQL, and JavaScript, with CSS and HTML for styling and structure.
+2. **Contributing to the WordPress Core**:
+    - WordPress is an open-source project, meaning that anyone can contribute to its development. Developers can contribute code to the WordPress core by reporting bugs, suggesting new features, writing patches, or directly contributing code through the WordPress Trac system or GitHub.
+    - **Contributors**: Many developers from the WordPress community contribute to the core development, including volunteers, contributors from WordPress-related businesses, and individual developers.
+    - **Core Contributors**: These are the dedicated developers who contribute frequently to the development of the WordPress core. They help in making decisions regarding the software, reviewing patches, and ensuring the overall integrity of the platform.
+3. **WordPress Core Features**:
+    - **Themes & Templates**: WordPress core includes basic theme functionality to allow the design and layout of a website. Developers can extend it through custom themes.
+    - **Plugins API**: WordPress core provides a framework for plugins to extend and enhance its functionality. Developers can create plugins that interact with the core system.
+    - **Custom Post Types & Taxonomies**: These features allow users and developers to create custom content types and categorization systems for a website, beyond the standard posts and pages.
+    - **Widgets & Menus**: WordPress allows developers to create custom widgets and menus that can be added to the site's theme to enhance its functionality.
+    - **Admin Interface**: The admin dashboard is a key feature of WordPress that allows site owners and administrators to manage the content, settings, and plugins of the site. Core development involves creating and improving this interface.
+4. **APIs and Libraries**:
+    - WordPress core provides various APIs to interact with and extend its functionality. These include:
+        - **REST API**: Allows developers to access and interact with WordPress content and settings via external applications.
+        - **Database API**: Handles database interactions and queries for retrieving or storing data.
+        - **User API**: Manages user authentication, profiles, roles, and permissions.
+        - **Theme & Plugin APIs**: These allow developers to build themes and plugins that can extend or modify WordPress functionality.
+5. **Version Releases and Updates**:
+    - WordPress follows a regular release cycle that includes major, minor, and maintenance releases. New features are typically introduced in major releases, while minor releases include bug fixes, security patches, and small improvements.
+    - Developers involved in core development are responsible for planning, testing, and maintaining these releases to ensure they meet high-quality standards.
+6. **Backwards Compatibility**:
+    - One of the key principles of WordPress core development is maintaining backwards compatibility. This ensures that websites built with older versions of WordPress continue to work as expected when the core is updated. However, while backwards compatibility is important, core development also strives to improve functionality, introduce new features, and fix security vulnerabilities.
+7. **Testing**:
+    - Testing is a crucial part of WordPress core development. Developers write unit tests and perform integration testing to ensure that new code doesn't break existing functionality.
+    - Automated testing tools are also used to streamline the process, ensuring that every change is thoroughly tested for bugs and regressions.
+
+### WordPress Core Development Workflow:
+1. **Trac & GitHub**: WordPress development uses Trac, a bug-tracking and project management system, and GitHub repositories to track issues, submit patches, and manage code contributions.    
+2. **Contributor Workflow**: Developers submit patches or pull requests (PRs) to contribute to the WordPress core. These are reviewed by experienced contributors, who approve, reject, or request changes to the code.
+3. **Release Management**: Once new features or bug fixes are ready, they are packaged into new releases of WordPress. These updates are then tested and pushed out to millions of websites via the automatic update system.
+
+## How to Get Involved in WordPress Core Development:
+1. **Join the Community**: Anyone can get involved in WordPress core development by joining the WordPress contributor community. There are multiple ways to contribute, such as fixing bugs, reporting issues, writing documentation, or helping with translations.
+2. **Testing and Feedback**: Developers and users can participate in beta testing of new features before they are released to the public. Providing feedback on new features helps ensure the quality of the platform.
+3. **Contribute Code**: If you’re a developer, you can start by contributing to the codebase. WordPress has a well-documented coding standard and contribution process, so developers can begin by fixing minor bugs or improving existing features.
+
+![](https://photos.artistudio.xyz/uploads/medium/78ceffbf858e2eb0b1c7a7ca97e32948.jpeg)
+
 - [Official Website - Make WordPress](https://make.wordpress.org)
 	- Meetup Organizer
 	- WordCamp Organizer

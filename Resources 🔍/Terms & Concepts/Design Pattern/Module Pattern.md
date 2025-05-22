@@ -1,0 +1,1 @@
+The Module Pattern is one of the important patterns in JavaScript. It is a commonly used Design Pattern which is used to wrap a set of variables and functions together in a single scope. [Read More](https://javascript.plainenglish.io/data-hiding-with-javascript-module-pattern-62b71520bddd)
