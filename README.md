@@ -1,3 +1,5 @@
+![TIMELINE](TIMELINE.gif)
+
 # WP Technical Interview Obsidian Repository
 
 This repository serves as a comprehensive resource designed to assist WordPress developers in preparing for technical interviews. The repository encompasses:
