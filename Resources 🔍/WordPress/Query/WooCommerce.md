@@ -1,3 +1,4 @@
+# Raw Query
 ## Find product that has duplicate sku
 ```sql
 SELECT meta_value, COUNT(*) AS sku_count

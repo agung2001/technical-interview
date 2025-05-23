@@ -51,9 +51,6 @@ To avoid these issues, do the following steps:
 While this method isn’t completely failsafe, it does go a long way toward ensuring that you only install high-quality WordPress plugins.
 
 ## **How to Install a WordPress Plugin?**
-
-WordPress plugins may be installed in a variety of methods. We recommend reading a specialized manual for complete instructions on [post on how to install WordPress plugins](https://wiki.artistudio.xyz/docs/wordpress/wp-basic/install-the-wordpress-plugin/).
-
 [How to Install a Plugin in WordPress](https://www.youtube.com/watch?v=YRpeN03RCOI "Play video "How to Install a Plugin in WordPress"")
 
 ## **How to Update a WordPress Plugin?**
@@ -143,7 +140,7 @@ WordPress plugins have transformed the way people create websites. Non-coders ma
 
 In order to develop your own plugin, it’s critical to first understand how the key systems work. Plugins operate primarily using **hooks**, which are a way for one piece of code to interact with (‘**hook into**’) another.
 
-In this section, we will cover up the basics of _how to develop your own plugin_. Please notes, that don’t develop your plugin on the live site until it is ready and pass the test. You can use the staging site in your local environment, [learn more](https://wiki.artistudio.xyz/docs/wordpress/wp-environment/).
+In this section, we will cover up the basics of _how to develop your own plugin_. Please notes, that don’t develop your plugin on the live site until it is ready and pass the test. You can use the staging site in your local environment
 
 There is some terminology in WordPress that you need to understand before you get started to develop custom plugins which are :
 - [[Hooks]]
@@ -155,7 +152,6 @@ There is some terminology in WordPress that you need to understand before you ge
 ### WordPress Plugin Development: Step by Step
 
 1.  Create Plugin File and Folder  
-    ![](https://wiki.artistudio.xyz/wp-content/uploads/2021/01/WP-Plugins-Folder.png)  
     The default path to the plugin directory is in _**wp-content/plugins**_ ; it may range depending on the types of WordPress installation you are using. For a custom framework like Bedrock, Themosis, or some other WordPress framework you might want to consider checking their documentation.Then you can create the folder and file for your plugin
     
     -   Folder : wp-content/{plugin-name}
@@ -176,7 +172,6 @@ There is some terminology in WordPress that you need to understand before you ge
 ```
 
 3.  Activate Plugin  
-    ![](https://wiki.artistudio.xyz/wp-content/uploads/2021/01/WP-Plugins-Custom-Plugin.png)  
     Activate your plugin through the backend admin panel, it stays in **_yourdomain.com/wp-admin/plugins.php_  
     **
 4.  Yaay, your very first plugin has now been activated!

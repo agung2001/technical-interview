@@ -11,7 +11,7 @@ This repository encompasses comprehensive technical topics essential for WordPre
 - WordPress Core Development and Architecture
 - PHP Programming and Best Practices
 - React.js for Modern WordPress Development
-- HTML5/CSS3 and Frontend Technologies
+- HTML/CSS and Frontend Technologies
 
 ## Setup Instruction
 To get started with this repository:
