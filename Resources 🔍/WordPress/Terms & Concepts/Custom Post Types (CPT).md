@@ -8,5 +8,33 @@ To create a custom post type in WordPress, you can use the `register_post_type()
 
 Custom post types are a powerful feature of WordPress that allows you to create complex websites with diverse content types. They are often used in conjunction with custom taxonomies, custom fields, and other advanced features to create fully customized WordPress websites.
 
+## Custom Post Statuses
+```php
+<?php
+function my_custom_post_statuses() {
+    register_post_status( 'awaiting_review', array(
+        'label'                     => _x( 'Awaiting Review', 'Post Status General', 'your-text-domain' ),
+        'label_count'               => _n_noop( 'Awaiting Review <span class="count">(%s)</span>', 'Awaiting Reviews <span class="count">(%s)</span>', 'your-text-domain' ),
+        'public'                    => false, // Not publicly viewable on the front end
+        'exclude_from_search'       => true,
+        'show_in_admin_all_list'    => true, // Show in 'All' count in admin
+        'show_in_admin_status_list' => true, // Show in status filter list at the top
+        'post_type'                 => array( 'post', 'my_custom_post_type' ), // Limit to specific post types
+    ) );
+
+    register_post_status( 'approved', array(
+        'label'                     => _x( 'Approved', 'Post Status General', 'your-text-domain' ),
+        'label_count'               => _n_noop( 'Approved <span class="count">(%s)</span>', 'Approved <span class="count">(%s)</span>', 'your-text-domain' ),
+        'public'                    => false,
+        'exclude_from_search'       => true,
+        'show_in_admin_all_list'    => true,
+        'show_in_admin_status_list' => true,
+        'post_type'                 => array( 'post', 'my_custom_post_type' ),
+    ) );
+}
+add_action( 'init', 'my_custom_post_statuses' );
+?>
+```
+
 ## Resource
 - [WP Developer Resources - Custom Post Types](https://developer.wordpress.org/plugins/post-types/)

@@ -10,5 +10,8 @@ Custom taxonomies are often used in conjunction with custom post types to create
 
 Overall, taxonomies are a powerful feature of WordPress that allow you to organize and categorize your content in a flexible and customizable way.
 
+## Categories vs Tags
+Categories and tags are both ways to organize content, but categories are hierarchical and are used for broader content grouping, while tags are non-hierarchical and are used for more specific keywords or topics associated with a post.
+
 ## Resource
 - [WP Developer Resources - Taxonomies](https://developer.wordpress.org/plugins/taxonomies/)

@@ -14,3 +14,4 @@ Here are some of the resources that you can use if you want to develop your them
 
 - [WP Developer/Theme Handbook – Getting Started](https://developer.wordpress.org/themes/getting-started/)
 - [WP Developer/Theme Handbook – Child Theme](https://developer.wordpress.org/themes/getting-started/)
+
