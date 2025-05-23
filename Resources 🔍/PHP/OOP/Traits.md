@@ -38,3 +38,6 @@ class Animal {
 In this example, both the `Person` and `Animal` classes use the `Greet` trait. As a result, they both have access to the `sayHello()` and `sayGoodbye()` methods defined in the trait. This allows us to share the common greeting functionality among different classes without having to duplicate the code.
 
 Using traits can help to keep your code organized, promote code reusability, and reduce code duplication in PHP projects. However, it's important to use traits judiciously, as overusing them can lead to complex class hierarchies and make code harder to maintain.
+
+## Resource
+- [WCSchools - OOP Traits](https://www.w3schools.com/php/php_oop_traits.asp)
