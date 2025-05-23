@@ -62,6 +62,8 @@ Redux operates on three key principles:
     ```
 
 ### **Steps in Redux Workflow:**
+![](https://d33wubrfki0l68.cloudfront.net/01cc198232551a7e180f4e9e327b5ab22d9d14e7/b33f4/assets/images/reduxdataflowdiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif)
+
 - **Step 1**: The **UI** sends an **action** by calling `dispatch(action)`.
 - **Step 2**: The **action** is sent to the **reducer**.
 - **Step 3**: The **reducer** returns a new state.
@@ -130,15 +132,38 @@ Here’s a simple Redux example that adds and removes items from a list:
     console.log(store.getState()); // { items: [{ id: 2, name: 'Item 2' }] }
     ```
 
-### 5. **Why Use Redux?**
+### **Why Use Redux?**
 - **Predictable State**: Since state changes are only made through actions and reducers, the flow of data is predictable and can be easily tracked.
 - **Centralized State**: With Redux, all application state is stored in one central location (the store), which simplifies data management and access.
 - **Ease of Debugging**: Redux tools like **Redux DevTools** allow you to track every action and state change in real-time, making debugging much easier.
 - **Separation of Concerns**: By separating state logic (in reducers) from UI logic (in components), Redux promotes cleaner and more maintainable code.
 - **Middleware**: Redux has a powerful middleware system that allows you to extend its functionality (e.g., logging, handling asynchronous actions, etc.).
 
-### 6. **Common Use Cases for Redux:**
+### **Common Use Cases for Redux:**
 - **Complex State Management**: When your application has many components that need access to the same state, or if you have deeply nested components, Redux provides a clean and scalable solution.
 - **Global State**: Redux is useful when multiple parts of your application need access to the same piece of state (e.g., user authentication status, theme preferences, etc.).
 - **Predictable Data Flow**: If you want to ensure that your state changes in a controlled, predictable way, Redux’s strict unidirectional data flow is beneficial.
 
+### Summary
+- **Redux's intent can be summarized in three principles**
+	- Global app state is kept in a single store
+	- The store state is read-only to the rest of the app
+	- Reducer functions are used to update the state in response to actions
+- **Redux uses a "one-way data flow" app structure**
+	- State describes the condition of the app at a point in time, and UI renders based on that state
+	- When something happens in the app:
+		- The UI dispatches an action
+		- The store runs the reducers, and the state is updated based on what occurred
+		- The store notifies the UI that the state has changed
+	- The UI re-renders based on the new state
+
+## Library
+- [[Redux Saga]]
+- [[Redux Toolkit]]
+- [[Redux Thunk]]
+
+## Tutorial
+- [The Net Ninja - Redux Tutorial (with Redux Toolkit)](https://www.youtube.com/watch?v=iBUJVy8phqw)
+
+## Resource
+- [Official Website](https://redux.js.org/)

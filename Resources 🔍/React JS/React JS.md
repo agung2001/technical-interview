@@ -98,7 +98,6 @@ const Simple = () => {...}
 	- [Build and Deploy 4 Modern React Apps and Get Hired as a Frontend Developer | Full 10-Hour Course](https://www.youtube.com/watch?v=F627pKNUCVQ&list=WL)
 	- [Let's Build ChatGPT 2.0 with React JS and OpenAI on your PC!](https://www.youtube.com/watch?v=qwM23_kF4v4&list=WL)
 
-
 ## Resources
 - [Official Website](https://reactjs.org/)
 	- [Documentation](https://reactjs.org/docs/getting-started.html)
