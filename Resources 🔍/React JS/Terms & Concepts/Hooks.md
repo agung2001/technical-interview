@@ -15,4 +15,7 @@ Before hooks, React only allowed state and side effects in class components. Wit
 - **Avoiding Class Components**: Hooks make it easier to work with functional components and avoid the complexities of class components, such as `this` keyword and lifecycle methods.
 
 ## Resource
-- [YouTube - Codevolution - React Hooks Tutorial](https://www.youtube.com/watch?v=cF2lQ_gZeA8&list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A)
+- GitHub
+	- [Lemoncode/react-hooks-by-example](https://github.com/Lemoncode/react-hooks-by-example)
+- YouTube
+	- [Codevolution - React Hooks Tutorial](https://www.youtube.com/watch?v=cF2lQ_gZeA8&list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A)

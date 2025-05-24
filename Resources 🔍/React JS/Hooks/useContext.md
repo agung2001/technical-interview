@@ -1,3 +1,5 @@
+![](https://www.youtube.com/watch?v=n7xQVRpYHYY)
+
 The `useContext` hook is one of the **React hooks** that allows you to **consume** and access **context** in a functional component. It provides a way to share values (like data or functions) across your component tree without needing to manually pass props through every level of the component hierarchy.
 
 Context is often used for global data, such as themes, authentication, language preferences, or user settings, which need to be accessible by many components across the application.
