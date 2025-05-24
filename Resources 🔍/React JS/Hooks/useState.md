@@ -32,3 +32,6 @@ Here's how `useState` works:
 By using `useState`, React handles the management of state for you, ensuring that when the state is updated, the component re-renders to reflect the changes. This makes it easy to create dynamic and interactive user interfaces in React without the complexities of managing state manually.
 
 Remember that state updates with `useState` are asynchronous, so if you need to perform an action after the state has been updated, you might need to use the `useEffect` hook.
+
+## Resource
+- [React Reference - useState](https://react.dev/reference/react/useState)

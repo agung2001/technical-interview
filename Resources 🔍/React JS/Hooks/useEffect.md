@@ -44,3 +44,6 @@ Here's how you use `useEffect`:
    ```
 
 `useEffect` is a powerful tool for managing side effects in React components while maintaining a clear and declarative code structure. It helps you keep your components focused on rendering and user interactions while abstracting away the complexities of managing external data or resources.
+
+## Resource
+- [React Referenc - useEffect](https://react.dev/reference/react/useEffect)

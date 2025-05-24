@@ -143,7 +143,7 @@ In order to develop your own plugin, it’s critical to first understand how the
 In this section, we will cover up the basics of _how to develop your own plugin_. Please notes, that don’t develop your plugin on the live site until it is ready and pass the test. You can use the staging site in your local environment
 
 There is some terminology in WordPress that you need to understand before you get started to develop custom plugins which are :
-- [[Hooks]]
+- [[Resources 🔍/WordPress/Terms & Concepts/Hooks/Hooks]]
 	- [[Action]]
 	- [[Filter]]
 	- [[Resources 🔍/WordPress/Terms & Concepts/Hooks/Shortcode]]

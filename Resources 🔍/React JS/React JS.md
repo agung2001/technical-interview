@@ -8,14 +8,17 @@ Here's a breakdown of key concepts in React JS:
 - Each component can manage its state and render dynamic content based on that state.
 - Components can be nested inside other components to create complex UIs.
 
-Learn more : [Component and Props](https://legacy.reactjs.org/docs/components-and-props.html)
-
-### **Virtual DOM**
+## **Virtual DOM**
 - React uses a "Virtual DOM," which is an in-memory representation of the actual DOM on the web page.
 - When there are changes to the UI, React first updates the Virtual DOM and then compares it with the actual DOM. This process is called **reconciliation**.
 - React only updates the parts of the DOM that have actually changed, leading to better performance compared to directly manipulating the DOM.
 
-### **JSX (JavaScript XML)**
+## Declarative vs Imperative
+- Declarative : Modifying DOM
+	- React JS run declarative, but using of a blueprint or state changes based on how the app should look like
+- Imperative : Listen to the change of event
+
+## **JSX (JavaScript XML)**
 - React uses JSX, a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript.
 - JSX makes it easier to visualize and define how the UI will look and behave.
 - Example:
@@ -23,7 +26,7 @@ Learn more : [Component and Props](https://legacy.reactjs.org/docs/components-an
     const element = <h1>Hello, world!</h1>;
     ```
 
-### **State and Props**
+## **State and Props**
 - **State**: Represents data that can change over time and affect how a component renders.
 - **Props**: Short for "properties," props are used to pass data from one component to another. They are immutable and are set by the parent component.
 
@@ -36,15 +39,19 @@ Learn more : [Component and Props](https://legacy.reactjs.org/docs/components-an
     
     Here, `props.name` is passed from a parent component.
 
-### **One-Way Data Flow**
+## **One-Way Data Flow**
+![](https://kinsta.com/wp-content/uploads/2021/11/react-one-way-data-flow.jpg)
+
 - React follows a one-way data flow, meaning data is passed from parent to child components via props.
 - This predictable flow of data makes debugging and state management simpler.
 
-### **Lifecycle Methods**
+## **Lifecycle Methods**
+![](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ogimage.png)
+
 - React components have lifecycle methods that allow you to run code at specific points during the component's life (e.g., when it is created, updated, or destroyed).
 - Examples include `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount`.
 
-### **React Hooks**
+## **React Hooks**
 - Introduced in React 16.8, **Hooks** allow functional components to manage state, lifecycle methods, and side effects without using class-based components.
 - Common hooks include `useState`, `useEffect`, and `useContext`.
     ```jsx
@@ -55,12 +62,9 @@ Learn more : [Component and Props](https://legacy.reactjs.org/docs/components-an
 
 ## Concepts
 - [Components and Props](https://reactjs.org/docs/components-and-props.html)
-	- Function as Props : [[React & Redux#Function as Props]]
-- [State and Lifecycles](https://reactjs.org/docs/state-and-lifecycle.html) : 
-	- [[React & Redux#State]]
-	- [[React & Redux#Lifecycle Methods]]
+- [State and Lifecycles](https://reactjs.org/docs/state-and-lifecycle.html) 
 - [Handling Events](https://reactjs.org/docs/handling-events.html)
-- [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html) : [[React & Redux#Conditional Outputs]]
+- [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 - Method Binding : [[React & Redux#Method Binding]]
 - Stateless Component : [[React & Redux#Stateless Components]]
 - Higher Order Component : [[React & Redux#Higher Order Component]]
@@ -81,7 +85,6 @@ const Simple = () => {...}
 ```
 
 ## Tricks
-- Handling delete function : [[React & Redux#Delete Data]]
 - Code Splitting : 
 	- [How to Improve Performance in React with Code Splitting](https://www.youtube.com/watch?v=-4fyyyQjsz8)
 	- [Speed Up Your React Apps With Code Splitting](https://www.youtube.com/watch?v=JU6sl_yyZqs)

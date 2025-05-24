@@ -50,3 +50,6 @@ export default App;
 In this example, the `ExpensiveComponent` receives a `list` prop, and the memoized value `expensiveValue` is computed based on the `list`. The `useMemo` hook ensures that the expensive computation is only recalculated when the `list` prop changes.
 
 By using `useMemo`, you can optimize the performance of your React components by preventing unnecessary re-renders and computations.
+
+## Resource
+- [React Reference - useMemo](https://react.dev/reference/react/useMemo)
