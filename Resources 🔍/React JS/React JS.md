@@ -65,9 +65,9 @@ Here's a breakdown of key concepts in React JS:
 - [State and Lifecycles](https://reactjs.org/docs/state-and-lifecycle.html) 
 - [Handling Events](https://reactjs.org/docs/handling-events.html)
 - [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
-- Method Binding : [[React & Redux#Method Binding]]
-- Stateless Component : [[React & Redux#Stateless Components]]
-- Higher Order Component : [[React & Redux#Higher Order Component]]
+- [[Method Binding]]
+- [[Stateless Component]]
+- [[Higher-Order Components]]
 - [Lazy Loading](https://react.dev/reference/react/lazy)
 	- [Suspense](https://react.dev/reference/react/Suspense)
 
