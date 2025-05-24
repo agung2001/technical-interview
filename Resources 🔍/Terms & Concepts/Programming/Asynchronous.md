@@ -1,0 +1,5 @@
+In computing, asynchronous (often abbreviated as async) refers to a type of programming paradigm where tasks can be executed independently of one another, without the need for strict synchronization or blocking. This allows for more efficient use of system resources, as tasks can be executed in parallel, and can also help to improve the responsiveness and scalability of software systems.
+
+In asynchronous programming, tasks are typically executed in the background, while the main thread of execution continues to run other tasks or processes. Asynchronous tasks may run concurrently, meaning that they can execute at the same time, or they may be executed in a sequence, with each task starting only after the previous task has completed.
+
+Asynchronous programming can be implemented using various techniques and technologies, such as callbacks, promises, and async/await syntax in JavaScript, or coroutines and asynchronous functions in Python. Asynchronous programming is commonly used in web development, where it allows for faster and more efficient handling of requests, as well as in other areas such as data processing, networking, and file I/O.
