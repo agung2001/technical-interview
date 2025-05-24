@@ -157,6 +157,9 @@ Here’s a simple Redux example that adds and removes items from a list:
 		- The store notifies the UI that the state has changed
 	- The UI re-renders based on the new state
 
+## Project
+- [Hands on React Redux - Redux](https://github.com/agung2001/hands-on-react-redux/tree/develop/projects/redux-in-100-seconds)
+
 ## Library
 - [[Redux Saga]]
 - [[Redux Toolkit]]

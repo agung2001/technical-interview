@@ -13,6 +13,10 @@ The goal of Gutenberg is to make content creation in WordPress easier and more i
 - [GitHub - WordPress/gutenberg](https://github.com/WordPress/gutenberg)
 - [10Up Gutenberg Best Practice](https://gutenberg.10up.com/)
 
+## Related
+- [[Resources 🔍/WordPress/Terms & Concepts/Block|Block]]
+- [[Block API]]
+
 ## Tutorial
 - [Professor K Explains - Get started with Gutenberg in WordPress](https://www.youtube.com/playlist?list=PLFYdvD6EeUNk0te8meyMNmjfjupd-o8yS)
 - [The WP Minute WordPress news - Gutenberg block library: Copy/paste FREE blocks from this website!! 😲](https://www.youtube.com/watch?v=wrHHNUbznK4&list=WL)

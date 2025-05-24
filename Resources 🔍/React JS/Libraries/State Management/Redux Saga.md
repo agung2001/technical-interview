@@ -133,6 +133,9 @@ export const { getCatsFetch, getCatsSuccess, getCatsFailure } = catSlice.actions
 export default catSlice.reducer;
 ```
 
+## Project
+- [Hands on React Redux - Saga](https://github.com/agung2001/hands-on-react-redux/tree/develop/projects/redux-saga-with-redux-toolkit)
+
 ## Resource
 - [Official Website](https://redux-saga.js.org/)
 - [GitHub - redux-saga/redux-saga](https://github.com/redux-saga/redux-saga)

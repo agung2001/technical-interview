@@ -70,5 +70,9 @@ The introduction of the **block editor** (Gutenberg) in WordPress 5.0 changed th
 4. **Reusability**: Users can save blocks as reusable blocks, making it easy to add standardized sections (like call-to-action blocks) across multiple posts or pages.
 5. **Extensibility**: Developers can create custom blocks for unique content types, extending the functionality of WordPress.
 
+## Related
+- [[Block API]]
+- [[Gutenberg]]
+
 ## Contributors
 - [[Muhammad Agung Sundoro]]

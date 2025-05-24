@@ -78,3 +78,7 @@ Here’s an outline of how to create a custom block:
 	- [Registration](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/)
 - Article
 	- [Human Made - Hot Module Replacement for Gutenberg Blocks](https://humanmade.com/engineering/hot-module-replacement-for-gutenberg-blocks/)
+
+## Related
+- [[Resources 🔍/WordPress/Terms & Concepts/Block|Block]]
+- [[Gutenberg]]
