@@ -84,6 +84,9 @@ class Simple extends React.component {...}
 const Simple = () => {...}
 ```
 
+## Projects
+- [Hands on React](https://github.com/agung2001/hands-on-react)
+
 ## Tricks
 - Code Splitting : 
 	- [How to Improve Performance in React with Code Splitting](https://www.youtube.com/watch?v=-4fyyyQjsz8)
