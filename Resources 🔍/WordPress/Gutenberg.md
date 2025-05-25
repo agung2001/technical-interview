@@ -8,6 +8,9 @@ Gutenberg also offers advanced features such as inline image editing, customizab
 
 The goal of Gutenberg is to make content creation in WordPress easier and more intuitive, especially for users who are not familiar with HTML or CSS. With the block-based editor, users can create rich and engaging content without needing to rely on custom code or page builders.
 
+## Project
+- [Hands on Gutenberg Block](https://github.com/agung2001/hands-on-gutenberg-block)
+
 ## Resource
 - [Official Website](https://wordpress.org/gutenberg/)
 - [GitHub - WordPress/gutenberg](https://github.com/WordPress/gutenberg)
